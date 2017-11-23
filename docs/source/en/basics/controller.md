@@ -4,7 +4,7 @@ title: controller
 ## What is Controller
 [The previous chapter](./router.md) says router is mainly used to describe the relationship between the request URL and the Controller that processes the request eventually, so what is a Controller used for?
 
-Simply speaking, a Controller is used for **paring users' input and send back the relative result after processing**, for example
+Simply speaking, a Controller is used for **parsing users' input and send back the relative result after processing**, for example
 
 - In [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) interfaces, Controller accepts parameters from users and sends selected results back to user or modifies data in the database.
 - In HTTP page requests, Controller renders related templates to HTML according to different URLs requested then send back to users.
